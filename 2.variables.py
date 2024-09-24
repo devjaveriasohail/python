@@ -32,8 +32,22 @@ print(y, "and it type is ",type(y))
 print(z, "and it type is ",type(z))
 
 # Variable names are case-sensitive.
-a=345
-A=789
+# single or double quotes both work the same
+a="abc" 
+A='Monday'
+
+
 # a and A both are different variables
 print(a)
 print(A)
+
+# Python allows you to assign values to multiple variables in one line:
+l, m, n = "Orange", "Banana", "Cherry"
+print(l)
+print(m)
+print(n)
+
+# you can assign the same value to multiple variables in one line:
+p = q = "Orange"
+print(p)
+print(q)
