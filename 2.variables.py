@@ -11,6 +11,7 @@ age=20
 # printing variables
 print(name)
 print(age )
+
 # we can change/modify the value od variables after declaring it
 name="ayesha"
 print("the value in variable name after modifying it ",name)
@@ -48,6 +49,6 @@ print(m)
 print(n)
 
 # you can assign the same value to multiple variables in one line:
-p = q = "Orange"
-print(p)
-print(q)
+rollno=serialNo = 0
+print(rollno)
+print(serialNo)
